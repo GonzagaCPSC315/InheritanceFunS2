@@ -47,6 +47,13 @@ func employeeTester() {
     
     for emp in employees {
         // example of polymorphism
+        // polymorphism: "same code, different behavior"
+        // we have an array of Employee references
+        // refer to actual Programmer, Lawyer, or Accountant objects
+        // at runtime, we get a different method executing for emp.raise()
+        // depends on the actual type that emp refers to
+        // same code... emp.raise()
+        // different behavior
         print(emp)
         emp.raise()
     }
@@ -57,3 +64,9 @@ func employeeTester() {
 }
 
 employeeTester()
+
+// there are a few more swift topics (later)
+// guard let
+// optional chaining and nil coalescing operator
+// working with Errors
+// closures 
