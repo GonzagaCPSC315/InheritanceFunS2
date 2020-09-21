@@ -41,7 +41,16 @@ func employeeTester() {
     var employees: [Employee] = []
     // TODO: add some Programmers to the array
     employees.append(Programmer(name: "Spike the Bulldog", busPass: false))
+    employees.append(Lawyer(name: "Kenny Dewitt", stockOptions: 10))
+    employees.append(Lawyer(name: "Willie Makit", stockOptions: 100))
+    employees.append(Accountant(name: "Hal E. Luya", parkingAllowance: 17.00))
     
+    for emp in employees {
+        // example of polymorphism
+        print(emp)
+        emp.raise()
+    }
+    print("After raises...")
     for emp in employees {
         print(emp)
     }

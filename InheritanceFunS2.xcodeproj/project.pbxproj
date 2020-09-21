@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4574B8E02519273E007D5FEE /* Lawyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574B8DF2519273E007D5FEE /* Lawyer.swift */; };
+		4574B8E225192744007D5FEE /* Accountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574B8E125192744007D5FEE /* Accountant.swift */; };
 		45E6D7CB251531D200657E6B /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6D7CA251531D200657E6B /* Employee.swift */; };
 		45E6D7CD251533BB00657E6B /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6D7CC251533BB00657E6B /* Programmer.swift */; };
 		45FA880D251507E80021A6FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA880C251507E80021A6FE /* main.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4574B8DF2519273E007D5FEE /* Lawyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lawyer.swift; sourceTree = "<group>"; };
+		4574B8E125192744007D5FEE /* Accountant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accountant.swift; sourceTree = "<group>"; };
 		45E6D7CA251531D200657E6B /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		45E6D7CC251533BB00657E6B /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
 		45FA8809251507E80021A6FE /* InheritanceFunS2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InheritanceFunS2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +68,8 @@
 				45FA880C251507E80021A6FE /* main.swift */,
 				45E6D7CA251531D200657E6B /* Employee.swift */,
 				45E6D7CC251533BB00657E6B /* Programmer.swift */,
+				4574B8DF2519273E007D5FEE /* Lawyer.swift */,
+				4574B8E125192744007D5FEE /* Accountant.swift */,
 			);
 			path = InheritanceFunS2;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 				45FA880D251507E80021A6FE /* main.swift in Sources */,
 				45E6D7CD251533BB00657E6B /* Programmer.swift in Sources */,
 				45E6D7CB251531D200657E6B /* Employee.swift in Sources */,
+				4574B8E225192744007D5FEE /* Accountant.swift in Sources */,
+				4574B8E02519273E007D5FEE /* Lawyer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
